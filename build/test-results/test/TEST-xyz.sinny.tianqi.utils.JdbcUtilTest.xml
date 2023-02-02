@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="xyz.sinny.tianqi.utils.JdbcUtilTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-02-02T11:16:06" hostname="LAPTOP-SLang" time="0.024">
+  <properties/>
+  <testcase name="assert_connection_and_close()" classname="xyz.sinny.tianqi.utils.JdbcUtilTest" time="0.024"/>
+  <system-out><![CDATA[com.mysql.cj.jdbc.ConnectionImpl@4ce07e1d
+]]></system-out>
+  <system-err><![CDATA[二月 02, 2023 7:16:06 下午 com.alibaba.druid.pool.DruidDataSource info
+信息: {dataSource-1} inited
+]]></system-err>
+</testsuite>
