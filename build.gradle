@@ -25,6 +25,10 @@ dependencies {
 //    testCompile group: 'junit', name: 'junit', version: '4.12'
     implementation 'mysql:mysql-connector-java:8.0.32'
     implementation 'com.alibaba:druid:1.2.15'
+
+    // https://mvnrepository.com/artifact/commons-dbutils/commons-dbutils
+    implementation group: 'commons-dbutils', name: 'commons-dbutils', version: '1.7'
+
 }
 
 tasks {

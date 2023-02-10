@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="xyz.sinny.tianqi.dao.impl.BaseDaoTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-02-10T09:53:54" hostname="LAPTOP-SLang" time="0.396">
+  <properties/>
+  <testcase name="query()" classname="xyz.sinny.tianqi.dao.impl.BaseDaoTest" time="0.396"/>
+  <system-out><![CDATA[
+[TianQi{county='历城区', date=2023-01-24, dayWthr='多云', dayTmp='12', nightWthr='多云', nightTmp='5', windPwr='2-3', windDrct='东风'}
+, TianQi{county='历城区', date=2023-01-25, dayWthr='大雨', dayTmp='26', nightWthr='小雨', nightTmp='8', windPwr='3', windDrct='西北风'}
+, TianQi{county='历城区', date=2023-01-26, dayWthr='多云', dayTmp='22', nightWthr='小雨', nightTmp='8', windPwr='6', windDrct='东南风'}
+, TianQi{county='历城区', date=2023-01-27, dayWthr='多云', dayTmp='8', nightWthr='多云', nightTmp='10', windPwr='8', windDrct='北风'}
+, TianQi{county='历城区', date=2023-01-28, dayWthr='多云', dayTmp='11', nightWthr='多云', nightTmp='3', windPwr='8', windDrct='东南风'}
+, TianQi{county='大同区', date=2023-01-24, dayWthr='多云', dayTmp='5', nightWthr='中雨', nightTmp='14', windPwr='1-2', windDrct='南风'}
+, TianQi{county='大同区', date=2023-01-25, dayWthr='多云', dayTmp='29', nightWthr='中雨', nightTmp='1', windPwr='4-5', windDrct='西南风'}
+, TianQi{county='大同区', date=2023-01-26, dayWthr='晴天', dayTmp='10', nightWthr='大雨', nightTmp='15', windPwr='5', windDrct='北风'}
+, TianQi{county='大同区', date=2023-01-27, dayWthr='小雨', dayTmp='2', nightWthr='多云', nightTmp='9', windPwr='4', windDrct='东北风'}
+, TianQi{county='大同区', date=2023-01-28, dayWthr='多云', dayTmp='24', nightWthr='小雨', nightTmp='9', windPwr='1', windDrct='西风'}
+, TianQi{county='朝阳区', date=2023-01-25, dayWthr='大雨', dayTmp='37', nightWthr='多云', nightTmp='19', windPwr='6', windDrct='西南风'}
+, TianQi{county='朝阳区', date=2023-01-26, dayWthr='中雨', dayTmp='18', nightWthr='大雨', nightTmp='8', windPwr='6', windDrct='东北风'}
+, TianQi{county='朝阳区', date=2023-01-27, dayWthr='多云', dayTmp='28', nightWthr='晴天', nightTmp='0', windPwr='8', windDrct='北风'}
+, TianQi{county='朝阳区', date=2023-01-28, dayWthr='中雨', dayTmp='26', nightWthr='大雨', nightTmp='17', windPwr='8', windDrct='东北风'}
+, TianQi{county='滨城区', date=2023-01-25, dayWthr='大雨', dayTmp='36', nightWthr='中雨', nightTmp='20', windPwr='3', windDrct='西北风'}
+, TianQi{county='滨城区', date=2023-01-27, dayWthr='小雨', dayTmp='23', nightWthr='大雨', nightTmp='4', windPwr='5', windDrct='西南风'}
+, TianQi{county='滨城区', date=2023-01-28, dayWthr='大雨', dayTmp='40', nightWthr='多云', nightTmp='11', windPwr='3', windDrct='北风'}
+]
+
+]]></system-out>
+  <system-err><![CDATA[二月 10, 2023 5:53:54 下午 com.alibaba.druid.pool.DruidDataSource info
+信息: {dataSource-1} inited
+]]></system-err>
+</testsuite>

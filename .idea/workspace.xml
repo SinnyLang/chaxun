@@ -12,19 +12,21 @@
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Sinny_Lang.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/Sinny_Lang.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/xyz/sinny/tianqi/utils/JdbcUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/xyz/sinny/tianqi/utils/JdbcUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/xyz.sinny.tianqi.SmokeTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/xyz.sinny.tianqi.utils.JdbcUtilTest.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/xyz.sinny.tianqi.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/DB_conf/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/DB_conf/jdbc.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-xyz.sinny.tianqi.SmokeTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/xyz.sinny.tianqi.utils.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-xyz.sinny.tianqi.utils.JdbcUtilTest.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/sinny/tianqi/utils/JdbcUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/sinny/tianqi/utils/JdbcUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/DB_conf/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/DB_conf/jdbc.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/xyz/sinny/tianqi/utils/JdbcUtilTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/xyz/sinny/tianqi/utils/JdbcUtilTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/sinny/tianqi/bean/TianQi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/sinny/tianqi/bean/TianQi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/sinny/tianqi/dao/TianQiDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/sinny/tianqi/dao/TianQiDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/sinny/tianqi/dao/impl/BaseDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/sinny/tianqi/dao/impl/BaseDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/sinny/tianqi/utils/JdbcResultSetToBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/sinny/tianqi/utils/JdbcResultSetToBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/xyz/sinny/tianqi/dao/impl/BaseDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/xyz/sinny/tianqi/dao/impl/BaseDaoTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -72,13 +74,18 @@
         <option value="Jsp File" />
         <option value="package-info" />
         <option value="Gradle Kotlin DSL Settings" />
-        <option value="Class" />
+        <option value="Interface" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JavaeeView">
+    <option name="frameworksView" value="false" />
+    <option name="showModules" value="false" />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -94,6 +101,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="external.system.task.project.file.to.start" value="$PROJECT_DIR$/src/test" />
@@ -101,6 +109,7 @@
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.32598713" />
@@ -108,6 +117,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="xyz.sinny.tianqi.dao.impl" />
       <recent name="xyz.sinny.tianqi.utils" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -132,7 +142,27 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.JdbcUtilTest">
+  <component name="RunManager" selected="Gradle.BaseDaoTest.query">
+    <configuration name="BaseDaoTest.query" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;xyz.sinny.tianqi.dao.impl.BaseDaoTest.query&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="JdbcUtilTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -211,25 +241,6 @@
         <option name="vmOptions" value="" />
       </ExternalSystemSettings>
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="chaxun [dependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="dependencies" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
     <configuration name="chaxun [war]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
@@ -326,20 +337,20 @@
     </configuration>
     <list>
       <item itemvalue="Gradle.Tests in 'chaxunTQ.test'" />
-      <item itemvalue="Gradle.chaxun [dependencies]" />
       <item itemvalue="Gradle.SmokeTest.one_add_one_should_equal_two" />
       <item itemvalue="Gradle.chaxun [war]" />
-      <item itemvalue="Tomcat Server.TQ" />
       <item itemvalue="Gradle.JdbcUtilTest.assert_connection_and_close" />
       <item itemvalue="Gradle.JdbcUtilTest" />
+      <item itemvalue="Gradle.BaseDaoTest.query" />
+      <item itemvalue="Tomcat Server.TQ" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.BaseDaoTest.query" />
         <item itemvalue="Gradle.JdbcUtilTest" />
         <item itemvalue="Gradle.JdbcUtilTest.assert_connection_and_close" />
         <item itemvalue="Gradle.chaxun [war]" />
         <item itemvalue="Gradle.SmokeTest.one_add_one_should_equal_two" />
-        <item itemvalue="Gradle.chaxun [dependencies]" />
       </list>
     </recent_temporary>
   </component>
@@ -357,7 +368,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
