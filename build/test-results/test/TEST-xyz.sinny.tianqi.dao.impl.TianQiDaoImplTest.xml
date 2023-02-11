@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="xyz.sinny.tianqi.dao.impl.TianQiDaoImplTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-02-11T06:55:30" hostname="LAPTOP-SLang" time="0.392">
+  <properties/>
+  <testcase name="queryTodayByCounty()" classname="xyz.sinny.tianqi.dao.impl.TianQiDaoImplTest" time="0.392"/>
+  <system-out><![CDATA[TianQi{county='历城区', date=2023-02-11, dayWthr='大雨', dayTmp='12', nightWthr='小雨', nightTmp='11', windPwr='3', windDrct='东风'}
+
+null
+null
+]]></system-out>
+  <system-err><![CDATA[二月 11, 2023 2:55:31 下午 com.alibaba.druid.pool.DruidDataSource info
+信息: {dataSource-1} inited
+]]></system-err>
+</testsuite>

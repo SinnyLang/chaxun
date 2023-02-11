@@ -8,6 +8,7 @@ public class TianQiDaoImpl extends BaseDao implements TianQiDao {
 
     @Override
     public TianQi queryTodayByCounty(String county) {
-        return null;
+        String sql = "SELECT * FROM t_weather WHERE TO_DAYS(date) = TO_DAYS(NOW()) AND county = \""+ county + "\" ;";
+        return super.queryOne(sql, TianQi.class);
     }
 }
