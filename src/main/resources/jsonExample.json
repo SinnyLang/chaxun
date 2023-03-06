@@ -1,0 +1,37 @@
+{
+  "statue": "200",
+  "links": [
+    {
+      "TianQiBean": {
+        "dayWthr": "晴天",
+        "date": 2,
+        "dayTmp": 23,
+        "nightWthr": "多云",
+        "nightTmp": 13,
+        "windPwr": "2-3",
+        "windDrct": "东风"
+      },
+      "isForward": false,
+      "dateType": 0,
+      "dayTmpType": 0,
+      "nightTmpType": 0,
+      "windPowerType": 0
+    },
+    {
+      "TianQiBean": {
+        "day": "晴天",
+        "date": 2,
+        "dayTmp": 23,
+        "night": "多云",
+        "nightTmp": 13,
+        "windPower": "2-3",
+        "windDis": "东风"
+      },
+      "isForward": false,
+      "dateType": 0,
+      "dayTmpType": 0,
+      "nightTmpType": 0,
+      "windPowerType": 0
+    }
+  ]
+}

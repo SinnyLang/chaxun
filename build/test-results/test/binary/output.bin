@@ -1,15 +1,42 @@
-�TianQi{county='济南市', date=2023-01-28, dayWthr='多云', dayTmp='null', nightWthr='null', nightTmp='null', windPwr='null', windDrct='null'}
-
-:xyz.sinny.tianqi.bean.TianQiConstraintCondition@3c139950
-�TianQi{county='济南市', date=2023-01-28, dayWthr='多云', dayTmp='null', nightWthr='null', nightTmp='null', windPwr='null', windDrct='null'}
-
-:xyz.sinny.tianqi.bean.TianQiConstraintCondition@3f96e750
-ASELECT county, count(county) as "count" FROM t_weather WHERE (( 
-.(date <= "2023-01-28" AND dayWthr = "多云")
- OR 
--(date = "2023-01-28" AND dayWthr = "多云")
-)) GROUP BY county
--[CountyAndCount{County='历城区', count=4}
-., CountyAndCount{County='大同区', count=3}
-., CountyAndCount{County='朝阳区', count=1}
-]
+{
+  "statue": "200",
+  "links": [
+    {
+      "TianQiBean": {
+        "dayWthr": "晴天",
+        "date": "2",
+        "dayTmp": 23,
+         "nightWthr": "多云",
+        "nightTmp": 13,
+        "windPwr": "2-3",
+        "windDrct": "东风"
+
+      },
+      "isForward": false,
+      "dateType": 0,
+      "dayTmpType": 0,
+      "nightTmpType": 0,
+      "windPowerType": 0
+    },
+    {
+      "TianQiBean": {
+        "day": "晴天",
+        "date": 2,
+        "dayTmp": 23,
+        "night": "多云",
+        "nightTmp": 13,
+        "windPower": "2-3",
+        "windDis": "东风"
+
+      },
+      "isForward": false,
+      "dateType": 0,
+      "dayTmpType": 0,
+      "nightTmpType": 0,
+      "windPowerType": 0
+    }
+  ]
+}
+�{statue=200, links=[{TianQiBean={dayWthr=晴天, date=2, dayTmp=23.0, nightWthr=多云, nightTmp=13.0, windPwr=2-3, windDrct=东风}, isForward=false, dateType=0.0, dayTmpType=0.0, nightTmpType=0.0, windPowerType=0.0}, {TianQiBean={day=晴天, date=2.0, dayTmp=23.0, night=多云, nightTmp=13.0, windPower=2-3, windDis=东风}, isForward=false, dateType=0.0, dayTmpType=0.0, nightTmpType=0.0, windPowerType=0.0}]}
+�links= [{TianQiBean={dayWthr=晴天, date=2, dayTmp=23.0, nightWthr=多云, nightTmp=13.0, windPwr=2-3, windDrct=东风}, isForward=false, dateType=0.0, dayTmpType=0.0, nightTmpType=0.0, windPowerType=0.0}, {TianQiBean={day=晴天, date=2.0, dayTmp=23.0, night=多云, nightTmp=13.0, windPower=2-3, windDis=东风}, isForward=false, dateType=0.0, dayTmpType=0.0, nightTmpType=0.0, windPowerType=0.0}]
+�link[0]={TianQiBean={dayWthr=晴天, date=2, dayTmp=23.0, nightWthr=多云, nightTmp=13.0, windPwr=2-3, windDrct=东风}, isForward=false, dateType=0.0, dayTmpType=0.0, nightTmpType=0.0, windPowerType=0.0}

@@ -17,6 +17,12 @@ public class TianQiDaoImpl extends BaseDao implements TianQiDao {
     }
 
     @Override
+    public List<TianQi> queryRecentTianQi(String county) {
+        String sql = "SELECT * FROM t_weather WHERE county = \"" + county + "\";";
+        return super.queryList(sql, TianQi.class);
+    }
+
+    @Override
     public List<CountyAndCount> queryCountyByTianQi(List<TianQiConstraintCondition> listTianQiCC) {
         String constraintsCondition = new ConstraintToSqlConstraint(listTianQiCC).translate();
         String sql =

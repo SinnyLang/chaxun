@@ -10,6 +10,7 @@ public interface TianQiDao {
     // 实现查询某地今天天气的方法
     // implement rtn:  String of county -> JavaBean Data
     TianQi queryTodayByCounty(String county);
+    List<TianQi> queryRecentTianQi(String county);
 
     // 实现根据天气查询某地的方法
     // implement rtn:  class of constraint condition -> JavaBean List
