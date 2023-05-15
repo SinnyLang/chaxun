@@ -51,7 +51,7 @@ public class DateTypeAdapter extends TypeAdapter<Object> {
                     return dbNum;
                 }
 
-                Long lNum = Double.doubleToLongBits();
+                Long lNum = Double.doubleToLongBits(1);
                 /**
                  *  Json转化为Obj，因为Gson自动将int转化成了double，导致
                  *  spring的beanMapTianQi对象了

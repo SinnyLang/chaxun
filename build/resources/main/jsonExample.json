@@ -4,7 +4,7 @@
     {
       "TianQiBean": {
         "dayWthr": "晴天",
-        "date": "2",
+        "date": 2,
         "dayTmp": 23,
         "nightWthr": "多云",
         "nightTmp": 13,
