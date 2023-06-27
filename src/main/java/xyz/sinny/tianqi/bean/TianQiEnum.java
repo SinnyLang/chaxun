@@ -3,7 +3,8 @@ import java.lang.Enum;
 
 public enum TianQiEnum {
     // 晴，多云，阴，雷雨，小雨，中雨，大雨，暴雨，大暴雨
-    SUNNY("晴"),
+    NULL(null),
+    SUNNY("晴天"),
     CLOUDY("多云"),
     THUNDER("雷雨"),
     LIGHT("小雨"),
@@ -23,6 +24,8 @@ public enum TianQiEnum {
     public static TianQiEnum getTianQiEnum(String name) {
         for (TianQiEnum tq :
                 TianQiEnum.values()) {
+            if (tq.name == null)
+                continue;
             if (tq.name.equals(name)) {
                 return tq;
             }

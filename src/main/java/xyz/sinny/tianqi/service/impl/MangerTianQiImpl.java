@@ -29,14 +29,17 @@ public class MangerTianQiImpl implements MangerTianQi {
     }
 
     @Override
-    public List<CountyAndCount> queryCountyFromTianQi(String tianQiConstraintCondition) {
+    public List<CountyAndCount>
+    queryCountyFromTianQi(String tianQiConstraintCondition) {
         List<TianQiConstraintCondition> list = new ArrayList<>();
         try {
             Map map = gson.fromJson(tianQiConstraintCondition, Map.class);
-            List<Map> links = (List<Map>) map.get("links");
-            for (Map m : links) {
+            List<String> links = (List<String>) map.get("links");
+            for (String s : links) {
                 // 手动解析 links 的对象
-
+                TianQiConstraintCondition t =
+                        gson.fromJson(s, TianQiConstraintCondition.class);
+                list.add(t);
             }
         }catch (Exception e){
             e.printStackTrace();
@@ -45,7 +48,8 @@ public class MangerTianQiImpl implements MangerTianQi {
     }
 
     @Override
-    public List<CountyAndCount> queryCountyFromTianQi(List<TianQiConstraintCondition> cc) {
+    public List<CountyAndCount>
+    queryCountyFromTianQi(List<TianQiConstraintCondition> cc) {
         return null;
     }
 }

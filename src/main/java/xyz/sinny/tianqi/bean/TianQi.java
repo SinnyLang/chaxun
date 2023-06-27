@@ -5,12 +5,12 @@ import java.sql.Date;
 public class TianQi {
     private String county;
     private Date date;
-    private String dayWthr;
+    private TianQiEnum dayWthr = TianQiEnum.NULL;
     private String dayTmp;
-    private String nightWthr;
+    private TianQiEnum nightWthr = TianQiEnum.NULL;
     private String nightTmp;
-    private String windPwr;
-    private String windDrct;
+    private WindPowerEnum windPwr = WindPowerEnum.NULL;
+    private WindDrcEnum windDrct = WindDrcEnum.NULL;
 
     @Override
     public String toString() {
@@ -43,11 +43,11 @@ public class TianQi {
     }
 
     public String getDayWthr() {
-        return dayWthr;
+        return dayWthr.getName();
     }
 
     public void setDayWthr(String dayWthr) {
-        this.dayWthr = dayWthr;
+        this.dayWthr = TianQiEnum.getTianQiEnum(dayWthr);
     }
 
     public String getDayTmp() {
@@ -59,11 +59,11 @@ public class TianQi {
     }
 
     public String getNightWthr() {
-        return nightWthr;
+        return nightWthr.getName();
     }
 
     public void setNightWthr(String nightWthr) {
-        this.nightWthr = nightWthr;
+        this.nightWthr = TianQiEnum.getTianQiEnum(nightWthr);
     }
 
     public String getNightTmp() {
@@ -75,18 +75,18 @@ public class TianQi {
     }
 
     public String getWindPwr() {
-        return windPwr;
+        return windPwr.getName();
     }
 
     public void setWindPwr(String windPwr) {
-        this.windPwr = windPwr;
+        this.windPwr = WindPowerEnum.getWindPower(windPwr);
     }
 
     public String getWindDrct() {
-        return windDrct;
+        return windDrct.getName();
     }
 
     public void setWindDrct(String windDrct) {
-        this.windDrct = windDrct;
+        this.windDrct = WindDrcEnum.getWindDrcEnum(windDrct);
     }
 }

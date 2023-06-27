@@ -1,6 +1,7 @@
 package xyz.sinny.tianqi.bean;
 
 public enum WindDrcEnum {
+    NULL(null),
     N("北风"),
     NE("东北风"),
     E("东风"),
@@ -22,6 +23,8 @@ public enum WindDrcEnum {
     public static WindDrcEnum getWindDrcEnum(String name) {
         for (WindDrcEnum wind :
                 WindDrcEnum.values()) {
+            if (wind.name == null)
+                continue;
             if (wind.name.equals(name)) {
                 return wind;
             }

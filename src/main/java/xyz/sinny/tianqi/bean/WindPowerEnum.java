@@ -1,6 +1,7 @@
 package xyz.sinny.tianqi.bean;
 
 public enum WindPowerEnum {
+    NULL(null),
     POWER_0("0"),
     POWER_1("1"),
     POWER_1_("1-2"),
@@ -39,6 +40,8 @@ public enum WindPowerEnum {
     public static WindPowerEnum getWindPower(String name) {
         for (WindPowerEnum tq :
                 WindPowerEnum.values()) {
+            if (tq.name == null)
+                continue;
             if (tq.name.equals(name)) {
                 return tq;
             }

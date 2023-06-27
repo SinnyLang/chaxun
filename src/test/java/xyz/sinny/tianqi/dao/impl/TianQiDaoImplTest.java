@@ -27,6 +27,9 @@ class TianQiDaoImplTest {
         TianQi today_ShaHai = new TianQiDaoImpl().queryTodayByCounty("上海市");
         System.out.println(today_ShaHai);
         assertNull(today_ShaHai);
+
+        List<TianQi> today_ShaHais = new TianQiDaoImpl().queryRecentTianQi("大同区");
+        System.out.println(today_ShaHais);
     }
 
     @Test

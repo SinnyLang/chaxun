@@ -1,0 +1,15 @@
+�TianQi{county='济南市', date=2023-01-28, dayWthr='CLOUDY', dayTmp='null', nightWthr='NULL', nightTmp='null', windPwr='NULL', windDrct='NULL'}
+
+:xyz.sinny.tianqi.bean.TianQiConstraintCondition@2e36f43d
+�TianQi{county='济南市', date=2023-01-28, dayWthr='CLOUDY', dayTmp='null', nightWthr='NULL', nightTmp='null', windPwr='NULL', windDrct='NULL'}
+
+:xyz.sinny.tianqi.bean.TianQiConstraintCondition@3017f478
+ASELECT county, count(county) as "count" FROM t_weather WHERE (( 
+.(date <= "2023-01-28" AND dayWthr = "多云")
+ OR 
+-(date = "2023-01-28" AND dayWthr = "多云")
+)) GROUP BY county
+-[CountyAndCount{County='历城区', count=4}
+., CountyAndCount{County='大同区', count=3}
+., CountyAndCount{County='朝阳区', count=1}
+]

@@ -23,10 +23,13 @@ public class TianQiDaoImpl extends BaseDao implements TianQiDao {
     }
 
     @Override
-    public List<CountyAndCount> queryCountyByTianQi(List<TianQiConstraintCondition> listTianQiCC) {
-        String constraintsCondition = new ConstraintToSqlConstraint(listTianQiCC).translate();
+    public List<CountyAndCount>
+    queryCountyByTianQi(List<TianQiConstraintCondition> listTianQiCC) {
+        String constraintsCondition =
+                new ConstraintToSqlConstraint(listTianQiCC).translate();
         String sql =
-                "SELECT county, count(county) as \"count\" FROM t_weather WHERE ("
+                "SELECT county, count(county) as \"count\" " +
+                "FROM t_weather WHERE ("
                 + constraintsCondition
                 + ") GROUP BY county";
         System.out.println(sql);
