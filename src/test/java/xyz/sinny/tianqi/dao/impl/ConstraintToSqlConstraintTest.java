@@ -31,8 +31,8 @@ class ConstraintToSqlConstraintTest {
         tqc.setDayType(true);
         tqc.setNightTmpType((byte) 0);
         tqc.setNightType(false);
-        tqc.setWinPowerType((byte) 0);
-        tqc.setWinDrctType(true);
+        tqc.setWindPowerType((byte) 0);
+        tqc.setWindDrctType(true);
         tqc.setTianQi(tq);
 
         System.out.println(tqc);

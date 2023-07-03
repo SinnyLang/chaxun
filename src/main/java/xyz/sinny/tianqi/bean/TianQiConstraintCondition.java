@@ -4,19 +4,19 @@ public class TianQiConstraintCondition {
     private TianQi tianQi;
     private Boolean isForward;
     private Byte dateType;
-    private Boolean dayType;
+    private Boolean dayType; // 只有等于和不等于
     private Byte dayTmpType;
     private Boolean nightType;
     private Byte nightTmpType;
-    private Byte winPowerType;
-    private Boolean winDrctType;
+    private Byte windPowerType;
+    private Boolean windDrctType;
 
-    public Boolean getWinDrctType() {
-        return winDrctType;
+    public Boolean getWindDrctType() {
+        return windDrctType;
     }
 
-    public void setWinDrctType(Boolean winDrctType) {
-        this.winDrctType = winDrctType;
+    public void setWindDrctType(Boolean winDrctType) {
+        this.windDrctType = winDrctType;
     }
 
     public Boolean getDayType() {
@@ -75,11 +75,26 @@ public class TianQiConstraintCondition {
         this.dayTmpType = dayTmpType;
     }
 
-    public Byte getWinPowerType() {
-        return winPowerType;
+    public Byte getWindPowerType() {
+        return windPowerType;
     }
 
-    public void setWinPowerType(Byte winPowerType) {
-        this.winPowerType = winPowerType;
+    public void setWindPowerType(Byte winPowerType) {
+        this.windPowerType = winPowerType;
+    }
+
+    @Override
+    public String toString() {
+        return "TianQiConstraintCondition{" +
+                "tianQi=" + tianQi +
+                ", isForward=" + isForward +
+                ", dateType=" + dateType +
+                ", dayType=" + dayType +
+                ", dayTmpType=" + dayTmpType +
+                ", nightType=" + nightType +
+                ", nightTmpType=" + nightTmpType +
+                ", winPowerType=" + windPowerType +
+                ", winDrctType=" + windDrctType +
+                '}';
     }
 }

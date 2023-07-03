@@ -1,15 +1,3 @@
-�TianQi{county='济南市', date=2023-01-28, dayWthr='CLOUDY', dayTmp='null', nightWthr='NULL', nightTmp='null', windPwr='NULL', windDrct='NULL'}
-
-:xyz.sinny.tianqi.bean.TianQiConstraintCondition@2e36f43d
-�TianQi{county='济南市', date=2023-01-28, dayWthr='CLOUDY', dayTmp='null', nightWthr='NULL', nightTmp='null', windPwr='NULL', windDrct='NULL'}
-
-:xyz.sinny.tianqi.bean.TianQiConstraintCondition@3017f478
-ASELECT county, count(county) as "count" FROM t_weather WHERE (( 
-.(date <= "2023-01-28" AND dayWthr = "多云")
- OR 
--(date = "2023-01-28" AND dayWthr = "多云")
-)) GROUP BY county
--[CountyAndCount{County='历城区', count=4}
-., CountyAndCount{County='大同区', count=3}
-., CountyAndCount{County='朝阳区', count=1}
-]
+�[TianQiConstraintCondition{tianQi=TianQi{county='null', date=2022-01-02, dayWthr='SUNNY', dayTmp='23.0', nightWthr='CLOUDY', nightTmp='13.0', windPwr='POWER_2_', windDrct='N'}
+�, isForward=false, dateType=0, dayType=false, dayTmpType=0, nightType=false, nightTmpType=0, winPowerType=0, winDrctType=false}, TianQiConstraintCondition{tianQi=TianQi{county='null', date=2022-01-03, dayWthr='SUNNY', dayTmp='23.0', nightWthr='CLOUDY', nightTmp='13.0', windPwr='POWER_2_', windDrct='N'}
+, isForward=false, dateType=0, dayType=true, dayTmpType=0, nightType=true, nightTmpType=0, winPowerType=0, winDrctType=true}]

@@ -56,8 +56,8 @@ class TianQiDaoImplTest {
         tqc.setDayType(true);
         tqc.setNightTmpType((byte) 0);
         tqc.setNightType(false);
-        tqc.setWinPowerType((byte) 0);
-        tqc.setWinDrctType(true);
+        tqc.setWindPowerType((byte) 0);
+        tqc.setWindDrctType(true);
         tqc.setTianQi(tq);
 
         System.out.println(tqc);
@@ -85,8 +85,8 @@ class TianQiDaoImplTest {
         tqc1.setDayType(true);
         tqc1.setNightTmpType((byte) 0);
         tqc1.setNightType(false);
-        tqc1.setWinPowerType((byte) 0);
-        tqc1.setWinDrctType(true);
+        tqc1.setWindPowerType((byte) 0);
+        tqc1.setWindDrctType(true);
         tqc1.setTianQi(tq1);
 
         System.out.println(tqc1);

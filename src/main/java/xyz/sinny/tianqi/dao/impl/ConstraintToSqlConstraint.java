@@ -122,7 +122,7 @@ public class ConstraintToSqlConstraint {
 //        Boolean windDrctType = tianQiCC.getWinDrctType();
         if (nightTmp != null){
             sqlStr.append(" AND windDrct")
-                    .append(getSqlCompareChar(tianQiCC.getWinDrctType()))
+                    .append(getSqlCompareChar(tianQiCC.getWindDrctType()))
                     .append("\"")
                     .append(windDrct)
                     .append("\"");

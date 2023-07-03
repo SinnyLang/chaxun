@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="xyz.sinny.tianqi.service.impl.MangerTianQiImplTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-07-03T08:20:30" hostname="LAPTOP-SLang" time="0.035">
+  <properties/>
+  <testcase name="queryCountyFromTianQi()" classname="xyz.sinny.tianqi.service.impl.MangerTianQiImplTest" time="0.035"/>
+  <system-out><![CDATA[[TianQiConstraintCondition{tianQi=TianQi{county='null', date=2022-01-02, dayWthr='SUNNY', dayTmp='23.0', nightWthr='CLOUDY', nightTmp='13.0', windPwr='POWER_2_', windDrct='N'}
+, isForward=false, dateType=0, dayType=false, dayTmpType=0, nightType=false, nightTmpType=0, winPowerType=0, winDrctType=false}, TianQiConstraintCondition{tianQi=TianQi{county='null', date=2022-01-03, dayWthr='SUNNY', dayTmp='23.0', nightWthr='CLOUDY', nightTmp='13.0', windPwr='POWER_2_', windDrct='N'}
+, isForward=false, dateType=0, dayType=true, dayTmpType=0, nightType=true, nightTmpType=0, winPowerType=0, winDrctType=true}]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
